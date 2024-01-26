@@ -17,262 +17,113 @@ import {
   TastyCloudLogo,
   YearProgressLogo,
 } from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { GitHubIcon, HackerrankIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
+  name: "Vũ Ngọc Đức",
   initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  location: "Cụm 1, Vĩnh Quỳnh, Thanh Trì, Hà Nội",
+  locationLink: "https://www.google.com/maps/@20.9396192,105.8369638,18.75z?entry=ttu",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Lập trình viên Frontend - ReactJS",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
+    "Là một lập trình viên định hướng theo Frontend, mình mong muốn tạo nên các giao diện hoàn chỉnh, đáp ứng nhu cầu thẩm mỹ cũng như trải nghiệm người dùng.",
+  avatarUrl: "https://scontent.fhan5-1.fna.fbcdn.net/v/t39.30808-6/422959168_336372986053086_2561621154019638612_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=3635dc&_nc_ohc=jg_DFtpcE2UAX8MNNly&_nc_ht=scontent.fhan5-1.fna&oh=00_AfAOlz1UYdn29Qt2Fags8Pn21XNhqcwdxN5_nQU_VSuL8w&oe=65B94237",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "ducwebdev@gmail.com",
+    tel: "+84334281675",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/2023newbie",
         icon: GitHubIcon,
       },
       {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
-        icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
+        name: "Hackerrank",
+        url: "https://www.hackerrank.com/profile/ducwebdev",
+        icon: HackerrankIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
-    },
-  ],
-  work: [
-    {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
-      description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+      school: "Funix - Trung tâm đào tạo lập trình",
+      degree: "Chứng chỉ lập trình viên Javascript Fullstack",
+      start: "3/2023",
+      end: "10/2023",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      school: "Cao đẳng Kinh tế Công nghiệp Hà Nội",
+      degree: "Quản trị kinh doanh",
+      start: "9/2019",
+      end: "7/2022",
     },
   ],
   skills: [
+    "CSS/Tailwind",
     "JavaScript",
     "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "ReactJS",
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "Fitness",
       techStack: [
         "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "TypeScript - ReactJS",
+        "Tailwind",
+        "Responsive",
+        "Animation"
       ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
+      description: "Một trang landing page giới thiệu về phòng Gym.",
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        href: "https://fitness-p78w.onrender.com/",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
+      title: "ProShop",
+      techStack: [
+        "Following Code", 
+        "ReactJS", 
+        "React-router",
+        "Redux/toolkit"
+      ],
+      description: "Một trang web mua sắm đồ công nghệ.",
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
+        href: "https://proshop-x6f6.onrender.com/",
+      }
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "BoutiqueShop",
+      techStack: ["Side Project", "ReactJS", "React-router", "Redux", "pure CSS"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
+        "Một trang web thương mại điện tử, mua sắm đồ Apple.",
       logo: JarockiMeLogo,
       link: {
         label: "github.com",
-        href: "https://jarocki.me/",
+        href: "https://ecommerce-hnh0.onrender.com",
       },
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Booking",
+      techStack: ["Side Project", "ReactJS", "React-router", "pure CSS"],
       description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
+        "Một trang web tìm kiếm khách sạn và đặt phòng.",
+      logo: JarockiMeLogo,
       link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
+        href: "https://booking-fq7o.onrender.com/",
       },
     },
     {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Tailwind Landing Pages",
+      techStack: ["Side Project", "TailwindCSS"],
       description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
+        "Tổng hợp các landing page bằng Tailwind.",
+      logo: JarockiMeLogo,
       link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
+        href: "https://2023newbie.github.io/landing-page-tailwind/",
       },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;

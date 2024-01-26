@@ -1,5 +1,4 @@
 import { GitHubIcon } from "./GitHubIcon";
-import { LinkedInIcon } from "./LinkedInIcon";
-import { XIcon } from "./XIcon";
+import { HackerrankIcon } from "./HackerrankIcon";
 
-export { GitHubIcon, LinkedInIcon, XIcon };
+export { GitHubIcon, HackerrankIcon };
