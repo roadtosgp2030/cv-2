@@ -34,8 +34,9 @@ export default function Page() {
                 {RESUME_DATA.location}
               </a>
             </p>
-            <div className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden">
+            <div className="flex flex-col gap-y-1 gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden">
               {RESUME_DATA.contact.email ? (
+                <div className="flex items-center gap-2">
                 <Button
                   className="size-8"
                   variant="outline"
@@ -46,31 +47,38 @@ export default function Page() {
                     <MailIcon className="size-4" />
                   </a>
                 </Button>
+                <p>{RESUME_DATA.contact.email}</p>
+                </div>
               ) : null}
               {RESUME_DATA.contact.tel ? (
-                <Button
-                  className="size-8"
-                  variant="outline"
-                  size="icon"
-                  asChild
-                >
-                  <a href={`tel:${RESUME_DATA.contact.tel}`}>
-                    <PhoneIcon className="size-4" />
-                  </a>
-                </Button>
+                <div className="flex items-center gap-2">
+                  <Button
+                    className="size-8"
+                    variant="outline"
+                    size="icon"
+                    asChild
+                  >
+                    <a href={`tel:${RESUME_DATA.contact.tel}`}>
+                      <PhoneIcon className="size-4" />
+                    </a>
+                  </Button>
+                  <p>{RESUME_DATA.contact.tel}</p>
+                </div>
               ) : null}
               {RESUME_DATA.contact.social.map((social) => (
-                <Button
-                  key={social.name}
-                  className="size-8"
-                  variant="outline"
-                  size="icon"
-                  asChild
-                >
-                  <a href={social.url}>
-                    <social.icon className="size-4" />
-                  </a>
-                </Button>
+                <div className="flex items-center gap-2" key={social.name}>
+                  <Button
+                    className="size-8"
+                    variant="outline"
+                    size="icon"
+                    asChild
+                  >
+                    <a href={social.url}>
+                      <social.icon className="size-4" />
+                    </a>
+                  </Button>
+                  <p>{social.url}</p>
+                </div>
               ))}
             </div>
             <div className="hidden flex-col gap-x-1 font-mono text-sm text-muted-foreground print:flex">

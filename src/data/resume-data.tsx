@@ -28,7 +28,7 @@ export const RESUME_DATA = {
     "Lập trình viên Frontend - ReactJS",
   summary:
     "Là một lập trình viên định hướng theo Frontend, mình mong muốn tạo nên các giao diện hoàn chỉnh, đáp ứng nhu cầu thẩm mỹ cũng như trải nghiệm người dùng.",
-  avatarUrl: "https://scontent.fhan5-1.fna.fbcdn.net/v/t39.30808-6/422959168_336372986053086_2561621154019638612_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=3635dc&_nc_ohc=jg_DFtpcE2UAX8MNNly&_nc_ht=scontent.fhan5-1.fna&oh=00_AfAOlz1UYdn29Qt2Fags8Pn21XNhqcwdxN5_nQU_VSuL8w&oe=65B94237",
+  avatarUrl: "https://scontent.fhan18-1.fna.fbcdn.net/v/t39.30808-6/422959168_336372986053086_2561621154019638612_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=3635dc&_nc_ohc=sE6HI8MM3-wAX-wJvdB&_nc_ht=scontent.fhan18-1.fna&oh=00_AfCTjprrQL_q4zG3yJOsV-GpGTX8NEaNS37CRd3Pi5ahKA&oe=65E2C977",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
     email: "ducwebdev@gmail.com",
@@ -39,11 +39,11 @@ export const RESUME_DATA = {
         url: "https://github.com/2023newbie",
         icon: GitHubIcon,
       },
-      {
-        name: "Hackerrank",
-        url: "https://www.hackerrank.com/profile/ducwebdev",
-        icon: HackerrankIcon,
-      },
+      // {
+      //   name: "Hackerrank",
+      //   url: "https://www.hackerrank.com/profile/ducwebdev",
+      //   icon: HackerrankIcon,
+      // },
     ],
   },
   education: [
