@@ -28,7 +28,7 @@ export const RESUME_DATA = {
     "Lập trình viên Frontend - ReactJS",
   summary:
     "Là một lập trình viên định hướng theo Frontend, mình mong muốn tạo nên các giao diện hoàn chỉnh, đáp ứng nhu cầu thẩm mỹ cũng như trải nghiệm người dùng.",
-  avatarUrl: "https://scontent.fhan18-1.fna.fbcdn.net/v/t39.30808-6/422959168_336372986053086_2561621154019638612_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=3635dc&_nc_ohc=sE6HI8MM3-wAX-wJvdB&_nc_ht=scontent.fhan18-1.fna&oh=00_AfCTjprrQL_q4zG3yJOsV-GpGTX8NEaNS37CRd3Pi5ahKA&oe=65E2C977",
+  avatarUrl: "https://scontent.fhan5-8.fna.fbcdn.net/v/t39.30808-6/422959168_336372986053086_2561621154019638612_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=mlDH9P4EZPoAb4fhsfe&_nc_ht=scontent.fhan5-8.fna&oh=00_AfD_nPUDKIKSV5aBa0IYzMh6T6wYQpP2sYXiCfYIJQOTMw&oe=6616A477",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
     email: "ducwebdev@gmail.com",
@@ -60,11 +60,21 @@ export const RESUME_DATA = {
       end: "7/2022",
     },
   ],
+  work: [
+    {
+      company: 'Vaix Vietnam',
+      link: 'https://vaixgroup.com/',
+      title: 'Intern Frontend',
+      start: '3/2024',
+      end: 'nay',
+      description: 'Sử dụng Javascript thuần cùng các thư viện hỗ trợ để thêm chức năng cho khách hàng trên nền tảng quản lý dữ liệu dành cho doanh nghiệp của Nhật Bản Kintone. Bao gồm việc tùy chỉnh chức năng với Javascript, CSS, làm việc với API của Kintone...'
+    }
+  ],
   skills: [
-    "CSS/Tailwind",
-    "JavaScript",
-    "TypeScript",
-    "ReactJS",
+    "JavaScript (Solid)",
+    "CSS+Tailwind (Good)",
+    "ReactJS (Good)",
+    "TypeScript (Learning)",
   ],
   projects: [
     {
@@ -84,8 +94,8 @@ export const RESUME_DATA = {
     {
       title: "ProShop",
       techStack: [
-        "Following Code", 
-        "ReactJS", 
+        "Following Code",
+        "ReactJS",
         "React-router",
         "Redux/toolkit"
       ],
