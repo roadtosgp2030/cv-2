@@ -147,7 +147,7 @@ export const RESUME_DATA_ENG = {
     "Frontend Developer",
   summary:
     "As a Frontend-oriented programmer, I aspire to create comprehensive interfaces that meet both aesthetic needs and user experience.",
-  avatarUrl: "https://scontent.fhan5-8.fna.fbcdn.net/v/t39.30808-6/422959168_336372986053086_2561621154019638612_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=4JBpXk25zvUAb4rAZ3c&_nc_ht=scontent.fhan5-8.fna&oh=00_AfAVCv_tp8L-iLHm4TBoROhd9dhb4ea3vHTHab4Gj9xoeQ&oe=662443F7",
+  avatarUrl: "https://scontent.fhan5-8.fna.fbcdn.net/v/t39.30808-6/422959168_336372986053086_2561621154019638612_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=7PizypGaJi8Q7kNvgG7aes-&_nc_ht=scontent.fhan5-8.fna&oh=00_AfDORk153srPYrBrha6s93rcdNriz1LOuVSMC0-tWSy36w&oe=664144F7",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
     email: "ducwebdev@gmail.com",
