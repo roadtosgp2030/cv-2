@@ -185,7 +185,7 @@ export const RESUME_DATA_ENG = {
       link: 'https://vaixgroup.com/',
       title: 'Intern Frontend',
       start: '3/2024',
-      end: 'current',
+      end: '5/2024',
       description: 'Using plain JavaScript to add functionality to applications on the data management platform for businesses in Japan, Kintone. This includes customizing features with JavaScript, CSS, and working with the publisher\'s API.'
     }
   ],
