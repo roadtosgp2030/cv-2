@@ -147,7 +147,7 @@ export const RESUME_DATA_ENG = {
     "Frontend Developer",
   summary:
     "As a Frontend-oriented programmer, I aspire to create comprehensive interfaces that meet both aesthetic needs and user experience.",
-  avatarUrl: "https://scontent.fhan5-8.fna.fbcdn.net/v/t39.30808-6/422959168_336372986053086_2561621154019638612_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=7PizypGaJi8Q7kNvgG7aes-&_nc_ht=scontent.fhan5-8.fna&oh=00_AfDORk153srPYrBrha6s93rcdNriz1LOuVSMC0-tWSy36w&oe=664144F7",
+  avatarUrl: "https://scontent.fhan5-8.fna.fbcdn.net/v/t39.30808-6/422959168_336372986053086_2561621154019638612_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=8YJUakWACXAQ7kNvgE89go2&_nc_ht=scontent.fhan5-8.fna&oh=00_AYDjvt_HQmWifFXW8g2jMt9m6Gx4qfmTTiSKzehbnaswzA&oe=66526877",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
     email: "ducwebdev@gmail.com",
@@ -180,6 +180,14 @@ export const RESUME_DATA_ENG = {
     },
   ],
   work: [
+    {
+      company: 'Vaix Vietnam',
+      link: 'https://vaixgroup.com/',
+      title: 'Frontend (probation)',
+      start: '5/2024',
+      end: 'current',
+      description: '-'
+    },
     {
       company: 'Vaix Vietnam',
       link: 'https://vaixgroup.com/',
