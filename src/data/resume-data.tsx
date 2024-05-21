@@ -183,7 +183,7 @@ export const RESUME_DATA_ENG = {
     {
       company: 'Vaix Vietnam',
       link: 'https://vaixgroup.com/',
-      title: 'Frontend (probation)',
+      title: 'Frontend (probationary)',
       start: '5/2024',
       end: 'current',
       description: '-'
