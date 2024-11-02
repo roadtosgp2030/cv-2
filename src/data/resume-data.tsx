@@ -28,17 +28,17 @@ export const RESUME_DATA = {
     "Lập trình viên Frontend - ReactJS",
   summary:
     "Là một lập trình viên định hướng theo Frontend, mình mong muốn tạo nên các giao diện hoàn chỉnh, đáp ứng nhu cầu thẩm mỹ cũng như trải nghiệm người dùng.",
-  avatarUrl: "https://scontent.fhan5-8.fna.fbcdn.net/v/t39.30808-6/422959168_336372986053086_2561621154019638612_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=mlDH9P4EZPoAb4fhsfe&_nc_ht=scontent.fhan5-8.fna&oh=00_AfD_nPUDKIKSV5aBa0IYzMh6T6wYQpP2sYXiCfYIJQOTMw&oe=6616A477",
+  avatarUrl: "https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/422959168_336372986053086_2561621154019638612_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=n9By4RO1wSoQ7kNvgEghqFs&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=ABITbBoYcHxu78ZVuerKQZk&oh=00_AYDWqqPMub1IOHRkZMaBekvreFxHuTyMj-ShvzUYwPpl_w&oe=672BB7B7",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
     email: "ducwebdev@gmail.com",
     tel: "+84334281675",
     social: [
-      {
-        name: "GitHub",
-        url: "https://github.com/2023newbie",
-        icon: GitHubIcon,
-      },
+      // {
+      //   name: "GitHub",
+      //   url: "https://github.com/2023newbie",
+      //   icon: GitHubIcon,
+      // },
       // {
       //   name: "Hackerrank",
       //   url: "https://www.hackerrank.com/profile/ducwebdev",
@@ -49,7 +49,7 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Funix - Trung tâm đào tạo lập trình",
-      degree: "Chứng chỉ lập trình viên Javascript Fullstack",
+      degree: "Chứng chỉ lập trình viên Fullstack",
       start: "3/2023",
       end: "10/2023",
     },
@@ -64,17 +64,17 @@ export const RESUME_DATA = {
     {
       company: 'Vaix Vietnam',
       link: 'https://vaixgroup.com/',
-      title: 'Intern Frontend',
-      start: '3/2024',
+      title: 'Frontend',
+      start: '12/2023',
       end: 'nay',
-      description: 'Sử dụng Javascript thuần cùng các thư viện hỗ trợ để thêm chức năng cho khách hàng trên nền tảng quản lý dữ liệu dành cho doanh nghiệp của Nhật Bản Kintone. Bao gồm việc tùy chỉnh chức năng với Javascript, CSS, làm việc với API của Kintone...'
+      description: 'Sử dụng ReactJS cùng các thư viện liên quan xây dựng và phát triển các dự án theo yêu cầu của công ty. Viết plug-in cho khách hàng trên nền tảng quản lý dữ liệu doanh nghiệp Kintone của Nhật Bản.'
     }
   ],
   skills: [
-    "JavaScript (Solid)",
-    "CSS+Tailwind (Good)",
-    "ReactJS (Good)",
-    "TypeScript (Learning)",
+    "JavaScript",
+    "CSS+Tailwind",
+    "ReactJS+Redux",
+    "TypeScript",
   ],
   projects: [
     {
@@ -132,7 +132,7 @@ export const RESUME_DATA = {
         "Tổng hợp các landing page bằng Tailwind.",
       logo: JarockiMeLogo,
       link: {
-        href: "https://2023newbie.github.io/landing-page-tailwind/",
+        href: "https://roadtosgp2030.github.io/landing-page-tailwind/",
       },
     },
   ],
