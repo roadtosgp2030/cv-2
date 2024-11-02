@@ -65,7 +65,7 @@ export default function Page() {
                   <p>{RESUME_DATA.contact.tel}</p>
                 </div>
               ) : null}
-              {RESUME_DATA.contact.social.map((social) => (
+              {/* {RESUME_DATA.contact.social.map((social) => (
                 <div className="flex items-center gap-2" key={social.name}>
                   <Button
                     className="size-8"
@@ -79,7 +79,7 @@ export default function Page() {
                   </Button>
                   <p>{social.url}</p>
                 </div>
-              ))}
+              ))} */}
             </div>
             <div className="hidden flex-col gap-x-1 font-mono text-sm text-muted-foreground print:flex">
               {RESUME_DATA.contact.email ? (
