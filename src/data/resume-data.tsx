@@ -28,7 +28,7 @@ export const RESUME_DATA = {
     "Lập trình viên Frontend - ReactJS",
   summary:
     "Là một lập trình viên định hướng theo Frontend, mình mong muốn tạo nên các giao diện hoàn chỉnh, đáp ứng nhu cầu thẩm mỹ cũng như trải nghiệm người dùng.",
-  avatarUrl: "https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/422959168_336372986053086_2561621154019638612_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=n9By4RO1wSoQ7kNvgEghqFs&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=ABITbBoYcHxu78ZVuerKQZk&oh=00_AYDWqqPMub1IOHRkZMaBekvreFxHuTyMj-ShvzUYwPpl_w&oe=672BB7B7",
+  avatarUrl: "https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/422959168_336372986053086_2561621154019638612_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=ivZd8nAjHpkQ7kNvgFhugXd&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=ATA7rq7MbQZRUg6IhcClkBw&oh=00_AYCIUVzqd42mEFj6mB9dptQcgxyzKsZHJUm86MLvluV55A&oe=67352A77",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
     email: "ducwebdev@gmail.com",
@@ -104,17 +104,17 @@ export const RESUME_DATA = {
         href: "https://proshop-x6f6.onrender.com/",
       }
     },
-    {
-      title: "BoutiqueShop",
-      techStack: ["Side Project", "ReactJS", "React-router", "Redux", "pure CSS"],
-      description:
-        "Một trang web thương mại điện tử, mua sắm đồ Apple.",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://ecommerce-hnh0.onrender.com",
-      },
-    },
+    // {
+    //   title: "BoutiqueShop",
+    //   techStack: ["Side Project", "ReactJS", "React-router", "Redux", "pure CSS"],
+    //   description:
+    //     "Một trang web thương mại điện tử, mua sắm đồ Apple.",
+    //   logo: JarockiMeLogo,
+    //   link: {
+    //     label: "github.com",
+    //     href: "https://ecommerce-hnh0.onrender.com",
+    //   },
+    // },
     {
       title: "Booking",
       techStack: ["Side Project", "ReactJS", "React-router", "pure CSS"],
